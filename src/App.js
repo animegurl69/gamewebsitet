@@ -7,6 +7,8 @@ import Basic from './components/basiccomponent.js'
 
 import About from './components/about.js'
 
+import Navbar from './components/navbar.js'
+
 /**
  * basic component for copy. This is a basic react component
  */
@@ -19,9 +21,12 @@ class App extends Component {
         return (
           <div class = "App">
             <Router>
+              <Navbar/>
               <Switch>
+                
                 <Route exact path="/" component = {Basic}/>
                 <Route exact path="/about" component = {About}/>
+                
               </Switch>
             </Router>
           </div>

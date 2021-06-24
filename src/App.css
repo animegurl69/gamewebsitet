@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  color: greenyellow
 }
 
 .App-logo {
@@ -11,6 +10,7 @@
 p {
   color: yellowgreen
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -1,26 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      
-      <header className="App-header">
-        <h1>p</h1>
-        <p>
-          urmum
-        </p>
-        <a
-          className="App-link"
-          href="https://www.youtube.com/watch?v=xfr64zoBTAQ"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn about me
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from 'react';
+
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
+import Basic from './components/basiccomponent.js'
+
+import About from './components/about.js'
+
+/**
+ * basic component for copy. This is a basic react component
+ */
+class App extends Component {
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        return (
+          <div class = "App">
+            <Router>
+              <Switch>
+                <Route exact path="/" component = {Basic}/>
+                <Route exact path="/about" component = {About}/>
+              </Switch>
+            </Router>
+          </div>
+        )
+    }
 }
 
 export default App;

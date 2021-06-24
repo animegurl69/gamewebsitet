@@ -7,6 +7,8 @@ import Basic from './components/basiccomponent.js'
 
 import About from './components/about.js'
 
+import Landing from './components/landing.js'
+
 import Navbar from './components/navbar.js'
 
 /**
@@ -24,7 +26,7 @@ class App extends Component {
               <Navbar/>
               <Switch>
                 
-                <Route exact path="/" component = {Basic}/>
+                <Route exact path="/" component = {Landing}/>
                 <Route exact path="/about" component = {About}/>
                 
               </Switch>

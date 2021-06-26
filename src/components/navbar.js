@@ -15,7 +15,7 @@ class Navbar extends Component {
     render() {
         return (
             // TODO 3: implement navbar using v5 API
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-sm navbar-light bg-light">
                 <div className="container-fluid">
                     <a class="navbar-brand" href="/">
                         <img src={logo} alt="" width="30" height="24" class="d-inline-block align-text-top"/>

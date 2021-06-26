@@ -11,6 +11,8 @@ import Landing from './components/landing.js'
 
 import Navbar from './components/navbar.js'
 
+import Game from './components/game.js'
+
 /**
  * basic component for copy. This is a basic react component
  */
@@ -28,6 +30,7 @@ class App extends Component {
                 
                 <Route exact path="/" component = {Landing}/>
                 <Route exact path="/about" component = {About}/>
+                <Route exact path="/game" component = {Game}/>
                 
               </Switch>
             </Router>

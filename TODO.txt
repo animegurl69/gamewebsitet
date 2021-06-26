@@ -1,0 +1,17 @@
+Okay let's figure out how to get bootstrap working. 
+
+It turns out we were reading the documentation for bootstrap v4, and installed v5 and that caused the error.
+
+TODO:
+
+1) First delete the bootstrap node mudule in terminal: 'npm uninstall bootstrap'
+
+2) Follow the documentation https://getbootstrap.com/docs/5.0/getting-started/introduction/ and embed bootstrap modules in your project.
+
+    bootstrap is divided into two parts: css and javascript. Both needs to be imported within the index.html file.
+
+    a) css: defines the styles of bootstrap. Remember the "calssName=navbar" tag? navbar is a bootstrap css class. 
+
+    b) javascript: defines the actions of bootstrap. This can be found when you click the expand button on the navbar.
+
+3) Follow the documentation https://getbootstrap.com/docs/5.0/components/navbar/ to implement navbar

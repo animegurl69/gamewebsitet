@@ -1,0 +1,11 @@
+.page {
+    background-color: green;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.aspect-fill {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}

@@ -10,7 +10,10 @@ class Game extends Component {
 
     render() {
         return (
-            <h1>our game</h1>
+            <div className= "pink-text">
+                <h1>Play our gmae</h1>
+            </div>
+            
         )
     }
 }

@@ -1,11 +1,20 @@
 .page {
     background-color: green;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .aspect-fill {
     height: 500px;
     width: 100%;
     object-fit: cover;
+}
+
+.pink-text {
+    color: hotpink;
+}
+
+.blue-text {
+    color: blue;
 }

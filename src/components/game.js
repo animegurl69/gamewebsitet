@@ -10,8 +10,9 @@ class Game extends Component {
 
     render() {
         return (
-            <div className= "pink-text">
-                <h1>Play our gmae</h1>
+            <div className= "container pink-text headline mt-3">
+                <h1>Play our game</h1>
+                <iframe width= "100%" height="500" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             
         )

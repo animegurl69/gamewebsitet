@@ -5,6 +5,10 @@
     margin-right: 40px;
 }
 
+.headline {
+    text-align: center;
+}
+
 .aspect-fill {
     height: 500px;
     width: 100%;
@@ -18,3 +22,4 @@
 .blue-text {
     color: blue;
 }
+

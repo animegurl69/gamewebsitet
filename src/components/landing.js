@@ -27,7 +27,7 @@ class Landing extends Component {
                             <img src={cat1} className="aspect-fill" alt="..." />
                             <div className="carousel-caption d-none d-md-block">
                                 <h4 className= "pink-text">Cat 1</h4>
-                                <p className= "pink-text"> Some representative placeholder content for the first slide.</p>
+                                <p className= "pink-text"> cat cool</p>
                             </div>
                         </div>
                         <div className="carousel-item">

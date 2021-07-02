@@ -23,3 +23,9 @@
     color: blue;
 }
 
+.ytvideo {
+    width: 755px;
+    height: 424px;
+    max-width: 100%;
+    max-height: clac((100vw - 40px) / (16/9));
+}

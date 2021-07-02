@@ -26,7 +26,7 @@ class Landing extends Component {
                         <div className="carousel-item active">
                             <img src={cat1} className="aspect-fill" alt="..." />
                             <div className="carousel-caption d-none d-md-block">
-                                <h4 className= "pink-text">Cat 1</h4>
+                                <h4 className= "pink-text">cat 1</h4>
                                 <p className= "pink-text"> cat cool</p>
                             </div>
                         </div>

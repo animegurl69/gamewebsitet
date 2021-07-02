@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Card from "./card.js"
+
 import cat1 from '../assets/cat1.jpeg'
 import cat2 from '../assets/cat2.jpeg'
 import cat3 from '../assets/cat3.png'
@@ -19,20 +21,14 @@ class About extends Component {
             <div className="container mt-3">
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
                     <div className="col">
-                        <div className="card">
-                            <img src={henry} className="card-img-top" alt="..." />
-                            <div className="card-body pink-text">
-                                <h5 className="card-title">Henry</h5>
-                                <p className="card-text">bum</p>
-                            </div>
-                        </div>
+                        <Card image= {henry} title= "henry" text= "bum"/>
                     </div>
                     <div className="col">
                         <div className="card">
                             <img src={cat2} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="card-body blue-text">
+                                <h5 className="card-title">cat</h5>
+                                <p className="card-text">pen</p>
                             </div>
                         </div>
                     </div>

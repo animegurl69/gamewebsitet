@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import cat1 from '../assets/cat1.jpeg'
 import cat2 from '../assets/cat2.jpeg'
 import cat3 from '../assets/cat3.png'
+import art1 from '../assets/art1.jpg'
 
 /**
  * basic component for copy. This is a basic react component
@@ -24,10 +25,10 @@ class Landing extends Component {
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src={cat1} className="aspect-fill" alt="..." />
+                            <img src={art1} className="aspect-fill" alt="..." />
                             <div className="carousel-caption d-none d-md-block">
-                                <h4 className= "pink-text">cat 1</h4>
-                                <p className= "pink-text"> cat cool</p>
+                                <h4 className= "pink-text">Art</h4>
+                                <p className= "pink-text"> cool art for our game</p>
                             </div>
                         </div>
                         <div className="carousel-item">

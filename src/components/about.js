@@ -7,6 +7,8 @@ import cat2 from '../assets/cat2.jpeg'
 import cat3 from '../assets/cat3.png'
 import henry from '../assets/henry.PNG'
 
+import Footer from './footer.js'
+
 
 /**
  * basic component for copy. This is a basic react component
@@ -18,7 +20,9 @@ class About extends Component {
 
     render() {
         return (
+            
             <div className="container mt-3">
+                <h1 className = "text-center mb-5">Our Team</h1>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
                     <div className="col">
                         <Card image= {henry} title= "henry" text= "bum"/>
@@ -33,6 +37,7 @@ class About extends Component {
                         <Card image= {cat3} title= "cat3" text= "lol"/>
                     </div>
                 </div>
+                <Footer/>
             </div>
 
         )

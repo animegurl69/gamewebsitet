@@ -13,6 +13,8 @@ import Navbar from './components/navbar.js'
 
 import Game from './components/game.js'
 
+import Footer from './components/footer.js'
+
 /**
  * basic component for copy. This is a basic react component
  */

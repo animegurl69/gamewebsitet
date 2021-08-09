@@ -20,8 +20,10 @@ class About extends Component {
 
     render() {
         return (
-            
-            <div className="container mt-3">
+           
+            <div className= "aboutpage">
+            <div className= "container about-container">
+                    
                 <h1 className = "text-center mb-5">Our Team</h1>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
                     <div className="col">
@@ -36,10 +38,12 @@ class About extends Component {
                     <div className="col">
                         <Card image= {cat3} title= "cat3" text= "lol"/>
                     </div>
+                    
                 </div>
-                <Footer/>
+               
             </div>
-
+            <Footer/>
+            </div>
         )
     }
 }

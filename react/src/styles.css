@@ -42,18 +42,19 @@
 .whiteblock {
     background-color:white;
     opacity: 0.2;
-    height: 400px;
+    height: 200px;
 }
 
 .home-page {
     background-color:pink;
 }
 
-/* .transparent-style{
+
+.transparent-style{
     background-color: rgba(255, 255, 255, .4);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-} */
+}
 
 .container {
     width: auto;
@@ -63,4 +64,38 @@
 .footer {
     text-align: center;
     padding-bottom: 10px;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 10;
+    height: 50px;
+}
+
+.aboutpage {
+    background-color:pink;
+}
+
+.about-container {
+    padding-top: 100px;
+    min-height: 1000px;
+}
+
+.landing-container {
+    padding-top: 100px;
+    min-height: 1000px;
+}
+
+.game-page {
+    background-color:pink;
+}
+
+.game-container {
+    padding-top: 100px;
+    min-height: 1000px;
+}
+
+.live-game{
+    width: 100%;
+    height: 100%;
 }

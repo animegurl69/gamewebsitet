@@ -17,10 +17,10 @@ class Landing extends Component {
     render() {
         return (
             <div className = "home-page">
+                
                 <div className= "whiteblock">
-
                 </div>
-            <div className="container mt-3">
+            <div className="container mt-5 landing-container">
                 
                 <div id="carouselWithControls" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators">

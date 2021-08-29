@@ -15,8 +15,8 @@
     object-fit: cover;
 }
 
-.black-text {
-    color: rgb(0, 0, 0);
+.white-text {
+    color: rgb(255, 255, 255);
 }
 
 .blue-text {
@@ -45,8 +45,8 @@
     height: 200px;
 }
 
-.home-page {
-    background-color:pink;
+.background {
+    background-color: rgb(253, 203, 110);
 }
 
 

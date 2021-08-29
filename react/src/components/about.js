@@ -21,7 +21,7 @@ class About extends Component {
     render() {
         return (
            
-            <div className= "aboutpage">
+            <div className= "background">
             <div className= "container about-container">
                     
                 <h1 className = "text-center mb-5">Our Team</h1>

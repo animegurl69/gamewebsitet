@@ -17,7 +17,7 @@ class Game extends Component {
 
     render() {
         return (
-            <div className= "game-page">
+            <div className= "background">
 
 
             <div className= "container game-container pink-text headline">

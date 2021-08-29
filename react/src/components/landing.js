@@ -18,7 +18,7 @@ class Landing extends Component {
 
     render() {
         return (
-            <div className="home-page">
+            <div className="background">
                 
                 <div className="whiteblock">
                

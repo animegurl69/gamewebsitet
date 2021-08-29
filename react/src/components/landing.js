@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 import cat2 from '../assets/cat2.jpeg'
 import cat3 from '../assets/cat3.png'
 import art2 from '../assets/art2.png'
+import art1 from '../assets/art1.jpg'
+import gameplay from '../assets/gameplay.png'
 
 import Footer from './footer.js'
 /**
@@ -17,11 +19,13 @@ class Landing extends Component {
     render() {
         return (
             <div className="home-page">
-
+                
                 <div className="whiteblock">
+               
                 </div>
-                <div className="container mt-5 landing-container">
-
+                
+                <div className="container landing-container">
+                    <h1 className = "text-center mb-5">Welcome to our club website!</h1>
                     <div id="carouselWithControls" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselWithControls" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -32,22 +36,22 @@ class Landing extends Component {
                             <div className="carousel-item active">
                                 <img src={art2} className="active aspect-fill-center" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h4 className="pink-text">Art</h4>
-                                    <p className="pink-text"> cool art for our game</p>
+                                    <h3 className="white-text">Art</h3>
+                                    <p className="white-text">Our cool main character!</p>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={cat2} className="aspect-fill" alt="..." />
+                                <img src={gameplay} className="aspect-fill" alt="..." />
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h4 className="pink-text">Cat 2</h4>
-                                    <p className="pink-text">Some representative placeholder content for the first slide.</p>
+                                    <h3 className="white-text">Gameplay</h3>
+                                    <p className="white-text">A cool snapshot from our game!</p>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={cat3} className="aspect-fill" alt="..." />
+                                <img src={art1} className="aspect-fill" alt="..." />
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h4 className="pink-text">Cat 3</h4>
-                                    <p className="pink-text">Some representative placeholder content for the first slide.</p>
+                                    <h3 className="white-text">Art</h3>
+                                    <p className="white-text">Cool senery!</p>
                                 </div>
                             </div>
                         </div>

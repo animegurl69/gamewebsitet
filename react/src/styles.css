@@ -15,8 +15,8 @@
     object-fit: cover;
 }
 
-.pink-text {
-    color: hotpink;
+.black-text {
+    color: rgb(0, 0, 0);
 }
 
 .blue-text {
@@ -96,6 +96,6 @@
 }
 
 .live-game{
-    width: 100%;
-    height: 100%;
+    width: 1920px;
+    height: 1080px;
 }

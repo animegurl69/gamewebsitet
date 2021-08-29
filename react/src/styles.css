@@ -39,14 +39,13 @@
 
 
 
-.whiteblock {
-    background-color:white;
-    opacity: 0.2;
+.colored-block {
+    background-color:rgb(223, 230, 233);
     height: 200px;
 }
 
 .background {
-    background-color: rgb(253, 203, 110);
+    background-color: rgb(178, 190, 195);
 }
 
 
@@ -74,6 +73,10 @@
 
 .aboutpage {
     background-color:pink;
+}
+
+.padded-title {
+    padding-top: 100px;
 }
 
 .about-container {

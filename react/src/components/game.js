@@ -23,7 +23,7 @@ class Game extends Component {
             <div className= "container game-container pink-text headline">
                 <h1>Play our game</h1>
                 <Unity calssName= "live-game" unityContent={this.unityContent} />
-                <iframe className= "ytvideo" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
                 
             </div>
             <Footer/>

@@ -20,12 +20,12 @@ class Landing extends Component {
         return (
             <div className="background">
                 
-                <div className="whiteblock">
-               
+                <div className="colored-block">
+                    <h1 className = "text-center padded-title">Welcome to our club website!</h1>
                 </div>
                 
                 <div className="container landing-container">
-                    <h1 className = "text-center mb-5">Welcome to our club website!</h1>
+                    
                     <div id="carouselWithControls" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselWithControls" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>

@@ -19,13 +19,13 @@ class Landing extends Component {
     render() {
         return (
             <div className="background">
-                
+
                 <div className="colored-block">
-                    <h1 className = "text-center padded-title">Welcome to our club website!</h1>
+                    <h1 className="text-center padded-title">Welcome to our club website!</h1>
                 </div>
-                
+
                 <div className="container landing-container">
-                    
+
                     <div id="carouselWithControls" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselWithControls" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -50,8 +50,8 @@ class Landing extends Component {
                             <div className="carousel-item">
                                 <img src={art1} className="aspect-fill" alt="..." />
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h3 className="white-text">Art</h3>
-                                    <p className="white-text">Cool senery!</p>
+                                    <h3 className="white-text">Senery</h3>
+                                    <p className="white-text">Cool drawn background!</p>
                                 </div>
                             </div>
                         </div>
@@ -63,6 +63,13 @@ class Landing extends Component {
                             <span className="carousel-control-next-icon" aria-hidden="true"></span>
                             <span className="visually-hidden">Next</span>
                         </button>
+
+                    </div>
+                    <div className="game-introduction">
+                        <h3>Modicate</h3>
+                        <p>You are Evan M, the sole heir to the Throne Empire, a private weapons research company in the futuristic city of Ida. Born into a life of comfort, you’ve never known hard work, or had any combat training. But today is a new era. The death of your father has brought many sorrows, and many more questions. Who did this? Why? When the government won’t answer these questions, it is up to you to pry it from them….</p>
+                        <p>A secret multimillion credit prototype, your gadget is the pinnacle of design and power at Throne Empire. With its ability to absorb the power of destroyed weapons, you could wield unbelievable power at your fingertips. But for now, it is a matter of powering it up….</p>
+                        <p>Modicate is a fast paced top-down shooter coming to PC set in the year (Year); focused on quick combat and clearing levels of enemies. Modicate currently features a complete combat system with an array of weapons and abilities to use in the current available levels in the demo</p>
                     </div>
                 </div>
                 <Footer />

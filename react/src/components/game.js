@@ -10,7 +10,7 @@ class Game extends Component {
     constructor(props) {
         super(props);
         this.unityContent = new UnityContent(
-            "Build/Game 1 demo builds.json",
+            "Build/real build.json",
             "Build/UnityLoader.js"
           );
     }

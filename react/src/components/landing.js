@@ -6,6 +6,8 @@ import cat3 from '../assets/cat3.png'
 import art2 from '../assets/art2.png'
 import art1 from '../assets/art1.jpg'
 import gameplay from '../assets/gameplay.png'
+import art3 from '../assets/art3.png'
+
 
 import Footer from './footer.js'
 /**
@@ -22,6 +24,7 @@ class Landing extends Component {
 
                 <div className="colored-block">
                     <h1 className="text-center padded-title">Welcome to our club website!</h1>
+                    <h5 className= "text-center">A top-down action shooter game about… breaking your weapon?</h5>
                 </div>
 
                 <div className="container landing-container">
@@ -48,10 +51,10 @@ class Landing extends Component {
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={art1} className="aspect-fill" alt="..." />
+                                <img src={art3} className="aspect-fill" alt="..." />
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h3 className="white-text">Senery</h3>
-                                    <p className="white-text">Cool drawn background!</p>
+                                    <h3 className="white-text">Art</h3>
+                                    <p className="white-text">Character but mugshot!</p>
                                 </div>
                             </div>
                         </div>

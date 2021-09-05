@@ -22,21 +22,32 @@ class About extends Component {
         return (
            
             <div className= "background">
+                <div className="colored-block">
+                    <h1 className="text-center padded-title">Our Team</h1>
+                </div>
             <div className= "container about-container">
-                    
-                <h1 className = "text-center mb-5">Our Team</h1>
+                
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
                     <div className="col">
-                        <Card image= {henry} title= "henry" text= "bum"/>
+                        <Card image= {cat2} title= "torry" text= "guy"/>
                     </div>
                     <div className="col">
-                        <Card image= {cat1} title= "cat1" text= "pp"/>
+                        <Card image= {cat1} title= "Jinhan Wu" text= "cool guy"/>
                     </div>
                     <div className="col">
-                        <Card image= {cat2} title= "cat2" text= "pp2"/>
+                        <Card image= {cat2} title= "luc" text= "guy"/>
                     </div>
                     <div className="col">
-                        <Card image= {cat3} title= "cat3" text= "lol"/>
+                        <Card image= {cat3} title= "johnny" text= "guy"/>
+                    </div>
+                    <div className="col">
+                        <Card image= {henry} title= "henry" text= "guy"/>
+                    </div>
+                    <div className="col">
+                        <Card image= {cat3} title= "lars" text= "guy"/>
+                    </div>
+                    <div className="col">
+                        <Card image= {cat3} title= "nancy" text= "gal"/>
                     </div>
                     
                 </div>

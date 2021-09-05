@@ -3,7 +3,6 @@
 import React, { Component } from 'react';
 
 import logo from '../logo.svg'
-import mikey from '../assets/mikey.png'
 
 /**
  * basic component for copy. This is a basic react component

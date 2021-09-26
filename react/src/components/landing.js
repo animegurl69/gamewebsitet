@@ -39,19 +39,19 @@ class Landing extends Component {
                             <div className="carousel-item active">
                                 <img src={art2} className="active aspect-fill-center" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h3 className="white-text">Art</h3>
-                                    <p className="white-text">Our cool main character!</p>
+                                    <h3 className="black-text">Art</h3>
+                                    <p className="black-text">Our cool main character!</p>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={gameplay} className="aspect-fill" alt="..." />
+                                <img src={gameplay} className="aspect-fill-center" alt="..." />
                                 <div class="carousel-caption d-none d-md-block">
                                     <h3 className="white-text">Gameplay</h3>
                                     <p className="white-text">A cool snapshot from our game!</p>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={art3} className="aspect-fill" alt="..." />
+                                <img src={art3} className="aspect-fill-center" alt="..." />
                                 <div class="carousel-caption d-none d-md-block">
                                     <h3 className="white-text">Art</h3>
                                     <p className="white-text">Character but mugshot!</p>

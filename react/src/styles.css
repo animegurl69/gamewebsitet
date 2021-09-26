@@ -19,8 +19,8 @@
     color: rgb(255, 255, 255);
 }
 
-.blue-text {
-    color: blue;
+.black-text {
+    color: black;
 }
 
 .ytvideo {
@@ -31,7 +31,7 @@
 }
 
 .aspect-fill-center {
-    height: 500px;
+    height: 600px;
     width: 100%;
     object-fit: cover;
     object-position: center 0px;

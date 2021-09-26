@@ -29,29 +29,31 @@ class About extends Component {
                 
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
                     <div className="col">
-                        <Card image= {cat2} title= "torry" text= "guy"/>
+                        <Card image= {cat2} title= "Torry Li" text= "Game Programmer"/>
                     </div>
                     <div className="col">
-                        <Card image= {cat1} title= "Jinhan Wu" text= "cool guy"/>
+                        <Card image= {cat1} title= "Jinhan Wu" text= "Website Programmer"/>
                     </div>
                     <div className="col">
-                        <Card image= {cat2} title= "luc" text= "guy"/>
+                        <Card image= {cat2} title= "Luke Antle" text= "Project Communications"/>
                     </div>
                     <div className="col">
-                        <Card image= {cat3} title= "johnny" text= "guy"/>
+                        <Card image= {cat3} title= "Zhiyang Jiang" text= "Sprite Creator"/>
                     </div>
                     <div className="col">
-                        <Card image= {henry} title= "henry" text= "guy"/>
+                        <Card image= {henry} title= "Henry Tavaris" text= "guy"/>
                     </div>
                     <div className="col">
-                        <Card image= {cat3} title= "lars" text= "guy"/>
+                        <Card image= {cat3} title= "Lars Khan" text= "Music and SFX Writer"/>
                     </div>
                     <div className="col">
-                        <Card image= {cat3} title= "nancy" text= "gal"/>
+                        <Card image= {cat3} title= "Nan Jiang" text= "Splash Art and Second Sprite Creator"/>
                     </div>
                     
                 </div>
-               
+                <div className="game-introduction">
+                <a href=“https://www.kickstarter.com/projects/eastindiedevs/modicate/”>Kickstarter. Donate here!</a>
+                    </div>
             </div>
             <Footer/>
             </div>
